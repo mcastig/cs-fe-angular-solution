@@ -1,0 +1,72 @@
+.recent-transactions-banner {
+  background-color: #fcfcfc;
+  border: 1px solid #858585;
+}
+
+.recent-transactions-banner  h3 {
+  background-color: #008075;
+  color: #fff;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+.recent-transactions-banner .recent-transactions-container {
+  display: block;
+  width: 100%;
+}
+
+.recent-transactions-banner .briefcase-icon {
+  position: absolute;
+  padding-left: 16px;
+}
+
+.recent-transactions-banner label {
+  display: grid;
+  font-family: 'Kanit';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.recent-transactions-banner .recent-transactions-buttons {
+  display: flex;
+}
+
+.recent-transactions-banner .recent-transactions-buttons .search-typing {
+  width: 50%;
+}
+
+.recent-transactions-banner .recent-transactions-buttons .search-typing input {
+  border: 0;
+  border-bottom: 1px solid #737373;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.recent-transactions-banner .recent-transactions-buttons .search-typing input:focus,
+.recent-transactions-banner button:focus,
+.recent-transactions-banner select:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+.recent-transactions-banner .recent-transactions-buttons .sort-by {
+  display: flex;
+  width: 50%
+}
+
+.recent-transactions-banner button,
+.recent-transactions-banner select,
+.recent-transactions-banner p {
+  background-color: transparent;
+  border: 0;
+  padding-left: 30px;
+  width: auto;
+}
+
+.col-25 {
+  width: 25%;
+}

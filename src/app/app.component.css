@@ -16,6 +16,22 @@
 .container {
   margin: 0 auto;
   padding-top: 60px;
+  height: 960px;
   width: 84%;
 }
 
+.container .left {
+  float: left;
+  width: 30%;
+}
+
+.container .right {
+  float: right;
+  width: 70%;
+}
+
+input:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}

@@ -1,0 +1,34 @@
+<div class="recent-transactions-banner">
+  <h3>
+    <div class="briefcase-icon">
+      <fa-icon [icon]="faBriefCase"></fa-icon>
+    </div>
+    <div>Recent Transactions</div>
+  </h3>
+
+  <div class="recent-transactions-container">
+
+    <div class="recent-transactions-buttons">
+      <div class="search-typing">
+        <label>
+          <input placeholder="Search by typing"/>
+        </label>
+      </div>
+
+      <div class="sort-by">
+        <p class="col-25">Sort by</p>
+        <select class="col-25" name="select">
+          <option value="value1" selected>DATE</option>
+          <option value="value2" >Value 1</option>
+          <option value="value3">Value 2</option>
+        </select>
+        <button class="col-25">BENEFICIARY</button>
+        <button class="col-25">AMOUNT</button>
+      </div>
+    </div>
+
+    <div class="recent-transactions-list">
+
+    </div>
+  </div>
+</div>
