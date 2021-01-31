@@ -62,11 +62,61 @@
 .recent-transactions-banner select,
 .recent-transactions-banner p {
   background-color: transparent;
-  border: 0;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 4px;
   width: auto;
+}
+
+.recent-transactions-banner button,
+.recent-transactions-banner select {
+  border: 1px solid #858585;
+  padding: 0 18px;
+  height: 32px;
+  margin-top: 12px;
+}
+
+.recent-transactions-list .transaction-item {
+  display: flex;
+  border-left: 8px solid #e64800;
+  padding: 26px 16px;
+}
+
+.recent-transactions-list .transaction-item:first-child {
+  border-top: 1px solid #858585;
+}
+
+.recent-transactions-list .transaction-item:not(:last-child) {
+  border-bottom: 1px solid #858585;
+}
+
+.transaction-item .date,
+.transaction-item .payment {
+  font-weight: lighter;
+  display: block;
+}
+
+.image-logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.recent-transactions-list {
+  padding-top: 30px;
+}
+
+.no-border {
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.col-15 {
+  width: 15%;
 }
 
 .col-25 {
   width: 25%;
+}
+
+.amount {
+  text-align: right;
 }
